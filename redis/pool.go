@@ -534,7 +534,6 @@ func (l *idleList) pushFront(pc *poolConn) {
 	}
 	l.front = pc
 	l.count++
-	return
 }
 
 func (l *idleList) popFront() {
